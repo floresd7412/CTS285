@@ -1,0 +1,57 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package combat;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author flrsf
+ */
+public class Combat {
+     private static Scanner sc;
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       char operator; 
+       
+       double moves;
+                Scanner input;
+         input = new Scanner(System.in);
+		
+		
+		System.out.print("Please enter the number that cooralates with the battle move you want to perform: 1)Kick, 2)Punch, 3)Jump, 4)Slide ");
+                operator = input.next().charAt(0);
+	  	switch (operator) {
+
+      
+      case '1':
+        System.out.println(" You kicked the villain in the face!");
+        break;
+
+     
+      case '2':
+        System.out.println(" You kicked Punched the villain and mde some damage.");
+        break;
+
+      case '3':
+        System.out.println(" You jumped out of the way.");
+        break;
+
+      case '4':
+        System.out.println(" You slide and tripped the villain");
+        break;
+
+      default:
+        System.out.println(" You performed no move and are now dead!");
+        break;
+    }
+
+    input.close();
+  }
+    
+}
