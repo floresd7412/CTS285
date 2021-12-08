@@ -1,0 +1,189 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package project_1;
+import java.util.Scanner;
+/**
+ *
+ * @author flrsf
+ */
+public class Project_1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    char operator;
+    Double number1, number2, result;
+    int next = 0;
+    
+
+    // create an object of Scanner class
+    Scanner input = new Scanner(System.in);
+
+    // ask users to enter operator
+    System.out.println("Welcome librarian...would you like to gain the power of ultimate knowgledge? Lets play a little game: 1.A, 2.B, 3.C, 4.D, 5.E, 6.F, 7.G, 8.H, 9.I");
+    
+    System.out.println("Pick a word thats starts with one of the letter above, now go ahead and tell me the first letter in that word is, if you are done playing please enter 0");
+		   
+    operator = input.next().charAt(0);
+
+    switch (operator) {
+
+      case '1':
+        System.out.println("Great choice the letter A is only used about 8.4966% of the time so the odds are definitly with me!! ");
+          if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+
+      case '2':
+        System.out.println("Great choice the letter B is only used about 2.072% of the time so the odds are definitly with me!!   " );
+        if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+
+      case '3':
+        System.out.println("Great choice the letter C is only used about 4.5388% of the time so the odds are definitly with me!!" );
+         if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+      case '4':
+        System.out.println("Great choice the letter D is only used about 3.3844% of the time so the odds are definitly with me!!" );
+         if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+        
+      case '5':
+        System.out.println("Great choice the letter E is only used about 11.1607% of the time so the odds are definitly with me!!" );
+         if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+      
+      case '6':
+        System.out.println("Great choice the letter F is only used about 1.8121% of the time so the odds are definitly with me!!" );
+         if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+      
+      case '7':
+        System.out.println("Great choice the letter G is only used about 2.4705% of the time so the odds are definitly with me!!" );
+          if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+      
+      case '8':
+        System.out.println("Great choice the letter H is only used about 3.0034% of the time so the odds are definitly with me!!" );
+         if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+      
+      case '9':
+        System.out.println("Great choice the letter I is only used about 7.5448% of the time so the odds are definitly with me!!   " );
+         if (next == 0)
+	  	{
+        System.out.println("Give me a second try, whats the second letter of your word?" );
+         next = input.next().charAt(0);
+	  	} 
+          if (next ==0){
+          
+          }
+	  	else
+	  	{
+        System.out.println("...Ive run out of ideas you win the game. Come back anytime to play again" );
+		}
+      break;
+     
+ case '0':
+        System.out.println("Thanks for playing, ill see you next time." );
+      break;
+      default:
+        System.out.println("Invalid operator!");
+        break;
+    }
+
+    input.close();
+  }
+}
+    
